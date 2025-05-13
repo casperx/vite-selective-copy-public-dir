@@ -1,0 +1,29 @@
+{
+  "name": "@casperx102/vite-selective-copy-public-dir",
+  "type": "module",
+  "version": "1.0.4",
+  "description": "Selectively copy files from your public directory to output directory during build.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "pkgroll"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^20.11.17",
+    "pkgroll": "^2.5.0"
+  },
+  "peerDependencies": {
+    "vite": "^6"
+  },
+  "keywords": ["vite", "plugin"],
+  "author": "CasperX",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com/casperx/vite-selective-copy-public-dir.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
